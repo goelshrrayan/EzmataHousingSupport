@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ezmata.project.android.ezmashare.MainActivity">
+
+    <item
+        android:id="@+id/action_task"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_all"
+        app:showAsAction="always"
+        android:title="Tasks" />
+    <item
+        android:id="@+id/admin_logout"
+        android:icon="@drawable/logout2"
+        android:orderInCategory="100"
+        android:title="alarm"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_action_alarm"-->
+
+        <!--android:title="alarm" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_save"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_action_save"-->
+        <!--android:title="alarm" />-->
+
+
+
+</menu>

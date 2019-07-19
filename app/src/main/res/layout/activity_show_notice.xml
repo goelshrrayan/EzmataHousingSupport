@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_text"
+    android:orientation="vertical"
+    tools:context="ezmata.housing.project.visito.SuperAdmin.NoticeWork.ShowNotice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:hint="TITLE"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="@dimen/value_18sp"
+            android:id="@+id/ShowNoticeTitle"
+            android:background="@android:color/transparent"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/value_40dp"
+           android:layout_marginRight="@dimen/value_15dp"
+            android:text="DATE"
+            android:id="@+id/Show_Notice_Date"
+
+            android:gravity="center_vertical|end"
+
+            android:textSize="@dimen/value_20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:id="@+id/ShowNoticeContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="5"
+            android:gravity="left"
+            android:hint="Content Of Notice"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
